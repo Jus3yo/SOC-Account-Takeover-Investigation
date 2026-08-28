@@ -1,7 +1,7 @@
 # Cloudora Account Takeover Investigation
 
 **SOC Investigation | KQL / Azure Data Explorer | Incident Response**
-*Fictional client scenario (MyFirstHack training) — Entra ID / Microsoft 365 / Exchange Online*
+*Fictional client scenario*
 
 ---
 
