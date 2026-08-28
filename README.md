@@ -9,7 +9,7 @@
 
 A password-spray campaign originating from Lagos, Nigeria targeted Cloudora's Microsoft 365 tenant over three days, ultimately compromising the CEO's account and a second executive account. I led the investigation end-to-end using KQL against Entra ID sign-in and audit logs — detecting the spray, confirming account compromise, establishing behavioral baselines, uncovering attacker persistence, scoping the full blast radius, clearing a false positive, and verifying containment.
 
-**Severity:** P1 — CEO account compromised, rogue MFA device registered, inbox rule staged for BEC
+**Severity:** P1 - CEO account compromised, rogue MFA device registered, inbox rule staged for BEC
 **Outcome:** Contained. Sessions revoked, credentials reset, persistence removed, attacker IPs blocked, containment verified via follow-up query.
 
 ## What this demonstrates
@@ -27,7 +27,7 @@ A password-spray campaign originating from Lagos, Nigeria targeted Cloudora's Mi
 
 | File | Description |
 |---|---|
-| [`Cloudora_Incident_Report.pdf`](./Cloudora_Incident_Report.pdf) | Full formal incident report — executive summary, timeline, findings, IOCs, MITRE mapping, remediation, lessons learned |
+| [`Cloudora_Incident_Report.pdf`](./Cloudora_Incident_Report.pdf) | Full formal incident report - executive summary, timeline, findings, IOCs, MITRE mapping, remediation, lessons learned |
 | [`Account_takeover_evidence_log.md`](./Account_takeover_evidence_log.md) | Step-by-step investigation log with KQL queries and query-result screenshots for each stage |
 | [`images/`](./images) | Screenshots of KQL queries and results referenced in the evidence log |
 
