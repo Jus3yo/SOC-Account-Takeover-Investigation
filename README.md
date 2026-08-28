@@ -36,7 +36,7 @@ A password-spray campaign originating from Lagos, Nigeria targeted Cloudora's Mi
 | # | Step | Key finding |
 |---|---|---|
 | 1 | Password-spray detection | 100+ failed logins (`ResultType 50126`) across 3 Lagos IPs, 20+ accounts targeted |
-| 2 | CEO account compromise | Failed logins → successful auth at 03:12:05 UTC from 102.89.44.17, followed by OWA + Azure Portal access |
+| 2 | CEO account compromise | Failed logins -> successful auth at 03:12:05 UTC from 102.89.44.17, followed by OWA + Azure Portal access |
 | 3 | CEO baseline comparison | Confirmed Lagos activity had zero overlap with 2+ weeks of London-only sign-ins |
 | 4 | Persistence | Rogue Pixel 6 MFA device registered; "RSS Subscriptions" inbox rule created to hide finance/invoice emails |
 | 5 | Scope of compromise | Second account (Priya Nair) compromised from same infrastructure; used to access SharePoint |
